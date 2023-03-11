@@ -1,4 +1,4 @@
-# Introduction/Abstract
+# 1. Introduction/Abstract
 
 Bag of Visual Words is often used for image classsifcation.Its concept is derived from information retrieval and NLP’s bag of words concept. Features from the dataset images are used to construct vocabularies.Each image is then represented as a frequency histogram of features. From the frequency histogram, category of the test image is predicted. Feature of an image comprises of keypoints and descriptors. Keypoints are the unique 
 points in an image.If the image is rotated, shrinked, or expanded, its keypoints will always 
@@ -9,7 +9,7 @@ keypoint descriptor is to describe an interesting patch in an image.
 
  
   
-  # Instructions for installations
+  # 2. Instructions for installations
  If you are using google colab than packages are preinstalled, you just need to import them as
  ```bash
 import cv2
@@ -25,7 +25,7 @@ pip install opencv-python
 pip install -U scikit-learn
 python -m pip install scipy
 ```  
-# Instructions for running script
+# 3. Instructions for running script
 In order to run the script on google Colab:
 1. Download the .ipynb file and upload it to colab. 
 2. Download data sets and store them on drive individually.
@@ -33,7 +33,7 @@ In order to run the script on google Colab:
 4. Execute the cells.
 
 
- # Quantitative results
+ # 4. Quantitative results
  
  ## Objects dataset
  For objects dataset following results were produced:
@@ -58,7 +58,7 @@ In order to run the script on google Colab:
 |     False positive rate    |     0.03600    |     0.7356     |     0.0607       |     0         |     0.06920       |     0.04582          |     0.17086    |     0.07881      |     0.10367    |     0.19377       |
 |     Accuracy               |     0.8197     |     0.4268     |     0.79539      |     0.8102    |     0.7710        |     0.8495           |     0.8075     |     0.8265       |     0.8333     |     0.7479        |
 
-# Visual Results 
+# 5. Visual Results 
 ### Objects dataset
 Following are the confusion matrices which were produced for svm and random forest in case of objects dataset:
 ![image](https://user-images.githubusercontent.com/57056774/224492978-4365b2e5-432e-4b1a-bcde-64332ed9ea03.png)  
@@ -87,7 +87,7 @@ Following are some of the images correctly and incorrectly classified by random 
 ![image](https://user-images.githubusercontent.com/57056774/224495916-0e3b68d4-581f-496c-9b18-e58bd81c493d.png)
 
 
-# Authors
+# 6. Authors
 Mariam Nasim - 399635
 
 
