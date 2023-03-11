@@ -35,7 +35,7 @@ In order to run the script on google Colab:
 
  # 4. Quantitative results
  
- ## Objects dataset
+ ## a. Objects dataset
  For objects dataset following results were produced:
 |                            |     SVM              |                     |                    |                      |     Random Forest    |                    |                    |                      |
 |----------------------------|----------------------|---------------------|--------------------|----------------------|----------------------|--------------------|--------------------|----------------------|
@@ -46,7 +46,7 @@ In order to run the script on google Colab:
 |     False positive rate    |     0.16666667       |     0               |     0              |     0                |     0                |     0              |     0              |     0                |
 |     Accuracy               |     0.875            |     0.875           |     1              |     1                |     1                |     1              |     1              |     1                |
 
-## Flowers dataset
+## b. Flowers dataset
 
  For flowers dataset following results were produced:
  |                            |     SVM        |                |                  |               |                   |     Random Forest    |                |                  |                |                   |
